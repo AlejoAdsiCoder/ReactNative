@@ -1,11 +1,15 @@
-import React from 'react'
-import { ContadorConHook } from './components/ContadorConHook'
+/* import { ContadorConHook } from './components/ContadorConHook' */
 // import { Contador } from './components/Contador'
 // import { TiposBasicos } from './typescript/TiposBasicos'
 // import { ObjetosLiterales } from './typescript/ObjetosLiterales';
 // import { Funciones } from './typescript/Funciones';
 
-export const App = () => {
+import { Formularios } from "./components/Formularios";
+import { Usuarios } from "./components/Usuarios";
+
+/* import { Login } from "./components/Login"; */
+
+const App = () => {
   return (
     <div className="mt-2">
       <h1>Introduccion a TS - REACT</h1>
@@ -13,7 +17,10 @@ export const App = () => {
       <ObjetosLiterales /> */}
       {/* <Funciones /> */}
       {/* <Contador /> */}
-      <ContadorConHook />
+      {/* <ContadorConHook /> */}
+      {/* <Login /> */}
+      {/* <Usuarios /> */}
+      <Formularios />
     </div>
   )
 }
